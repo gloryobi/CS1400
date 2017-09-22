@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0FFF6321-3A98-457B-A868-792DA1D0A339}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>LIONHEART2</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ajl.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ala.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\alb.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\alk.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ams.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\apv.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\art.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\avg.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\bac.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\bag.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\bbl.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\big.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\bmf.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\cac.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\car.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\cbf.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\cdo.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\cea.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\chi.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\cjc.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\cjh.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\cph.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\csc.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\djh.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\dmb.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\dmc.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\dog.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\dpd.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\dtr.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\dut.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\dws.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\dww.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ead.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\eam.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\FNX.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\guy.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\hol.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jak.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jam.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jbj.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jdd.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jdj.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jfk.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jkl.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jrw.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jsy.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jtc.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\kjd.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\kjh.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\kkf.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\kkk.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\kld.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\kmg.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ksa.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ksj.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ktf.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\led.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\lionheart.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ljk.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\lkb.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\lvb.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\mas.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\mbm.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\mbw.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\mcr.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\mdr.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\mel.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\mje.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\msb.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\msc.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\mtj.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\njy.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\npt.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\nra.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\nss.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\nts.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\nwr.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\odp.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ooo.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\pat.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\per.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\rdb.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\rmt.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\rnc.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\rob.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\sea.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\sfz.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\spd.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\srp.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\sup.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\swl.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\tad.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\tar.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\tcr.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\tds.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\tjt.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\tks.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\tmh.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\tyd.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\wal.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\wlf.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\xgx.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\zdr.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\zjh.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\zps.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\ogo.cpp" />
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\unit.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ajl.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ala.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\alb.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\alk.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ams.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\apv.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\art.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\avg.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\bac.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\bag.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\bbl.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\big.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\bmf.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\cac.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\car.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\cbf.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\cdo.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\cea.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\chi.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\cjc.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\cjh.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\cph.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\csc.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\djh.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\dmb.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\dmc.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\dog.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\dpd.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\dtr.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\dut.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\dws.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\dww.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ead.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\eam.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\FNX.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\guy.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\hol.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jak.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jam.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jbj.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jdd.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jdj.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jfk.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jkl.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jrw.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jsy.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jtc.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\kjd.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\kjh.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\kkf.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\kkk.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\kld.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\kmg.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ksa.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ksj.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ktf.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\led.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\lionheart.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\lionheart2.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ljk.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\lkb.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\lvb.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\mas.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\mbm.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\mbw.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\mcr.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\mdr.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\mel.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\mje.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\msb.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\msc.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\mtj.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\njy.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\npt.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\nra.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\nss.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\nts.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\nwr.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\odp.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ooo.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\pat.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\per.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\rdb.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\rmt.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\rnc.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\rob.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\sea.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\sfz.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\spd.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\srp.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\sup.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\swl.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\tad.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\tar.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\tcr.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\tds.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\tjt.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\tks.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\tmh.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\tyd.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\wal.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\wlf.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\xgx.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\zdr.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\zjh.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\zps.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\ogo.h" />
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\unit.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\4player.in" />
+    <None Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\forts.in" />
+    <None Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\map.in" />
+    <None Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\map1.in" />
+    <None Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\map2.in" />
+    <None Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\map3.in" />
+    <None Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\map4.in" />
+    <None Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\map6.in" />
+    <None Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\map7.in" />
+    <None Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\navy.in" />
+    <None Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\The Arena.in" />
+    <None Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\Twists&amp;Turns.in" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="map2.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

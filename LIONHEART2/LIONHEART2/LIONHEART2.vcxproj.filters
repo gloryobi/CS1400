@@ -1,0 +1,709 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ajl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ala.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\alb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\alk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ams.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\apv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\art.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\avg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\bac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\bag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\bbl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\big.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\bmf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\cac.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\car.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\cbf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\cdo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\cea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\chi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\cjc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\cjh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\cph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\csc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\djh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\dmb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\dmc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\dog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\dpd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\dtr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\dut.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\dws.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\dww.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ead.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\eam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\FNX.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\guy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\hol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jak.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jam.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jbj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jdd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jdj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jfk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jkl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jrw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jsy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jtc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\kjd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\kjh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\kkf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\kkk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\kld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\kmg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ksa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ksj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ktf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\led.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\lionheart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ljk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\lkb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\lvb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\mas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\mbm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\mbw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\mcr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\mdr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\mel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\mje.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\msb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\msc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\mtj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\njy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\npt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\nra.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\nss.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\nts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\nwr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\odp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ooo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\pat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\per.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\rdb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\rmt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\rnc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\rob.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\sea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\sfz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\spd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\srp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\sup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\swl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\tad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\tar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\tcr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\tds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\tjt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\tks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\tmh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\tyd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\wal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\wlf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\xgx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\zdr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\zjh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\zps.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\unit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\ogo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\unit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ajl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ala.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\alb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\alk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\apv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\art.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\avg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\bac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\bag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\bbl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\big.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\bmf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\cac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\car.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\cbf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\cdo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\cea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\chi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\cjc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\cjh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\cph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\csc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\djh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\dmb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\dmc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\dog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\dpd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\dtr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\dut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\dws.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\dww.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ead.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\eam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\FNX.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\guy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\hol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jak.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jam.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jbj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jdd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jdj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jfk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jkl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jrw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jsy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\jtc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\kjd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\kjh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\kkf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\kkk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\kld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\kmg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ksa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ksj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ktf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\led.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\lionheart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\lionheart2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ljk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\lkb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\lvb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\mas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\mbm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\mbw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\mcr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\mdr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\mel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\mje.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\msb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\msc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\mtj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\njy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\npt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\nra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\nss.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\nts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\nwr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\odp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\ooo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\pat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\per.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\rdb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\rmt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\rnc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\rob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\sea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\sfz.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\spd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\srp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\sup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\swl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\tad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\tar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\tcr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\tds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\tjt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\tks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\tmh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\tyd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\wal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\wlf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\xgx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\zdr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\zjh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\zps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\ogo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\4player.in">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\forts.in">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\map.in">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\map1.in">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\map2.in">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\map3.in">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\map4.in">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\map6.in">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\map7.in">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\navy.in">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\The Arena.in">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\Desktop\code blocks\CS 1400\Lionheart\lionheartAllFiles\Twists&amp;Turns.in">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="map2.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

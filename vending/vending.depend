@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1411201578 source:c:\users\gloryobielodan\desktop\code blocks\vending\vending.cpp
+	<iostream>
+	<iomanip>
+

@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1411974580 source:c:\users\gloryobielodan\desktop\code blocks\decoder\decoder.cpp
+	<iostream>
+	<fstream>
+	<cctype>
+
+1412659899 source:c:\users\gloryobielodan\desktop\code blocks\cs 1400\decoder\decoder.cpp
+	<iostream>
+	<fstream>
+
